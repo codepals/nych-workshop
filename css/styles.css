@@ -1,0 +1,94 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+body, h1, h2, h3, h4, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  height: 50px;
+  background-color: #58bb89;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+h1 {
+  color: #f3e8e5;
+  font-size: 24px;
+  line-height: 50px;
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+li {
+  display: inline-block;
+  line-height: 50px;
+  margin-left: 5px;
+}
+
+
+.hero-image {
+  width: 100%;
+  display: block;
+}
+
+.who,
+.interests {
+  padding: 20px 40px;
+}
+
+.who {
+  background-color: #f8dd5d;
+}
+
+.interests > div {
+  margin: 40px 0;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 20px;
+}
+
+.interests > div > img {
+  display: block;
+}
+
+.interests > div > h3 {
+  display: inline-block;
+  padding: 5px 20px;
+  color: #f3e8e5;
+  margin-bottom: 10px;
+}
+
+.bloggurls h3 {
+  background-color: #e6832b;
+}
+
+.extracurriculars h3 {
+  background-color: #db605d;
+}
+
+.community h3 {
+  background-color: #58bb89;
+}
+
+.hobbies h3 {
+  background-color: #f8dd5d;
+}
+
+footer {
+  height: 50px;
+  line-height: 50px;
+  background-color: #ccc;
+  text-align: right;
+  padding: 0 20px;
+}

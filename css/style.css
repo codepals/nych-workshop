@@ -102,3 +102,14 @@ footer {
 ul.gallery {
   list-style: none;
 }
+
+ul.gallery li {
+  display: inline-block;
+  max-width: 32%;
+  margin-left: 0;
+}
+
+ul.gallery li img {
+  display: block;
+  width: 100%;
+}

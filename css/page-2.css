@@ -2,3 +2,8 @@
 h3 {
   background-color: #e6832b;
 }
+
+section {
+  padding: 40px;
+  border-bottom: 1px dotted #ccc;
+}
